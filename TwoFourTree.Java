@@ -13,19 +13,20 @@ public class TwoFourTree {
         TwoFourTreeItem centerLeftChild = null;     // center-left and center-right children exist iff the node is a non-leaf 4-node.
         TwoFourTreeItem centerRightChild = null;
 
-        public boolean isTwoNode() {
+        public boolean isTwoNode() { // Has two parent Nodes
 
-
-            return false;
-        }
-
-        public boolean isThreeNode() {
 
 
             return false;
         }
 
-        public boolean isFourNode() {
+        public boolean isThreeNode() { // Has three parent Nodes
+
+
+            return false;
+        }
+
+        public boolean isFourNode() { // Has four parent Nodes
 
 
             return false;
