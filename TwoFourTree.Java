@@ -14,35 +14,79 @@ public class TwoFourTree {
         TwoFourTreeItem centerRightChild = null;
 
         public boolean isTwoNode() {
+
+
             return false;
         }
 
         public boolean isThreeNode() {
+
+
             return false;
         }
 
         public boolean isFourNode() {
+
+
             return false;
         }
 
         public boolean isRoot() {
+
+
             return false;
         }
 
-        public TwoFourTreeItem(int value1) {
+        public TwoFourTreeItem(int value1) { // This is a Two Node
+
+            public Object Node = value1;
+
+            public TwoFourTreeItem leftChild;
+
+            public TwoFourTreeItem rightChild;
+
 
         }
 
-        public TwoFourTreeItem(int value1, int value2) {
+        public TwoFourTreeItem(int value1, int value2) { // This is a three Node
+
+            public Object Node = value1;
+
+            public Object Node = value2;
+
+            public TwoFourTreeItem leftChild;
+
+            public TwoFourTreeItem centerChild;
+
+            public TwoFourTreeItem rightChild;
+
+            
             
         }
 
-        public TwoFourTreeItem(int value1, int value2, int value3) {
+        public TwoFourTreeItem(int value1, int value2, int value3) { // This is a Four Node
+
             
+            public Object Node = value1;
+
+            public Object Node = value2;
+
+            public Object Node = value3;
+
+            public TwoFourTreeItem leftChild;
+
+            public TwoFourTreeItem centerLeftChild;
+
+            public TwoFourTreeItem centerRightChild;
+
+            public TwoFourTreeItem rightChild;
+
         }
 
         private void printIndents(int indent) {
+
             for(int i = 0; i < indent; i++) System.out.printf("  ");
+
         }
 
         public void printInOrder(int indent) {
@@ -68,14 +112,20 @@ public class TwoFourTree {
     TwoFourTreeItem root = null;
 
     public boolean addValue(int value) {
+
+
         return false;
     }
 
     public boolean hasValue(int value) {
+
+
         return false;
     }
 
     public boolean deleteValue(int value) {
+
+
         return false;
     }
 
